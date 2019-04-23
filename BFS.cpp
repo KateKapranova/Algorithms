@@ -1,3 +1,7 @@
+//checks if a graph is connected
+//input: number of nodes, number of edges, edges
+//0 if graph is not connected, 1 - otherwise
+
 #include <bits/stdc++.h>
 
 using namespace std;
