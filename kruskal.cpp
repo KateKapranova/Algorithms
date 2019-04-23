@@ -1,3 +1,7 @@
+//c++ iplementation of Kruskal algorithm
+//input: number of nodes, number of edges, edges, elevation of nodes
+//output: weight of the minimum spanning tree
+
 #include <bits/stdc++.h>
 
 using namespace std;
