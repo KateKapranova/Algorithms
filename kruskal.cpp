@@ -54,7 +54,7 @@ int main() {
     cout<<"edge 3: from "<<weightedEdges[3].fromNode<<" to "<< weightedEdges[3].toNode<<" with weight "<<weightedEdges[3].weight<<endl;
     cout<<"edge 4: from "<<weightedEdges[4].fromNode<<" to "<< weightedEdges[4].toNode<<" with weight "<<weightedEdges[4].weight<<endl;*/
 
-    //WARNING: egdes are sorted by weight in ASCENDING order, so that the last element can be popped from the vector
+    //WARNING: egdes are sorted by weight in ASCENDING order, so that the last element can be easily removed from the vector without overhead
     //not DESCENDING order how the algorithm dictates	
     sort(weightedEdges.begin(),weightedEdges.end(),sortFunction);
     //cout<<"sorted"<<endl;
