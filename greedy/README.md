@@ -10,13 +10,13 @@ The optimal team of three for each contest. If no such a team exists, return -1.
 By skill and if skills are the same then by id. Id count begins from 1.
 
 ### Sample input:
-3 2
-20 3000
-35 1800
-68 2500
-18 70
-70 90
+3 2<br/>
+20 3000<br/>
+35 1800<br/>
+68 2500<br/>
+18 70<br/>
+70 90<br/>
 
 ### Sample output:
-1 3 2
+1 3 2<br/>
 -1 
